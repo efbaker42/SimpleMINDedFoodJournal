@@ -1,0 +1,27 @@
+"""
+finalProjectNotes
+Elizabeth Baker
+28nov2023
+this program will outline my final project, the Simple-MINDed Food Journal, with documenyation about what each piece should do.
+"""
+
+#ask user to input date; what do i do with this?
+#ask user to input food
+#ask user to classify food (one choice for now)
+food = input("Enter food: ")
+type = input("Enter category: ")
+typeList = ["whole grain", "leafy green", "other non-starchy vegetables","nuts","beans","berries","poultry","fish","olive oil","sweets","red meat","cheese","fried/fast food","butter"]
+if type not in typeList:
+	print("Invalid entry. Try again.")
+	type = input("Enter category: ")
+
+print(food)
+print(type)
+#save entry as list in a line of a text file
+#make a function to count each category
+
+#access text file
+#split line on commas; not strictly a csv file but could help with later adaptation
+
+#print bar chart based on text file
+
